@@ -1,0 +1,28 @@
+body{
+  margin:0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightblue;
+  text-align: center;
+}
+header,nav,footer,#level{
+  width: 100%;
+  margin: 0px;
+  border: 0px;
+}
+header{
+  background-color: green;
+}
+nav{
+  background-color: yellow;
+}
+#level{
+  background-color: red;
+}
+footer{
+  background-color: black;
+  color: white;
+}
